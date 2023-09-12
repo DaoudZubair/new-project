@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    height: 69px;
+    width: 1240px;
+    position: fixed;
+    vertical-align: middle;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 5;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.header IMG {
+    height: 50px;
+}
+
+.header li{
+    text-decoration: underline;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.first-container {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    background-image: url("images/img-mission-background.webp");
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+.heading {
+    background-color: black;
+    height: 120px;
+    padding: 20px 0;
+    position: relative;
+    top: 290px;
+}
+
+
+.heading h2 {
+    margin-bottom: 14px;
+}
+
+
+.second-container {
+    margin: 69px auto 0 auto;
+    width: 1000px;
+    height: 780px;
+    opacity: 0.6;
+}
+
+.sec-heading {
+    padding-top: 80px;
+}
+
+.sec-heading h2 {
+    margin-bottom: 14px;
+}
+
+
+
+.flex-main-div-1 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex-main-div-2 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flex-div {
+
+}
+
+.flex-div img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.third-container {
+    width: 1200px;  
+    height: 500px;
+    background-image: url("images/img-locations-background.webp");
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+.third-container h2 {
+    padding-top: 50px;
+}
+
+.flex-locations {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    padding: 15px 110px 0 110px;
+    align-content: center;
+}
+
+.locations {
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    padding: 20px 0;
+    opacity: 0.6;
+    height: 350px;
+}
+
+footer h2 {
+    font-size: 44px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 70px;
+}
